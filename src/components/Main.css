@@ -1,0 +1,70 @@
+.main {
+  text-align: center;
+  /* padding-top: 7rem; */
+}
+
+.main p {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+#about {
+  font-weight: 700;
+}
+
+.main-wrap {
+  position: relative;
+  text-align: left;
+  left: 50%;
+  transform: translateX(-20%);
+
+  margin-top: 3rem;
+  line-height: 9rem;
+}
+
+.main-wrap div {
+  font-size: 10rem;
+  letter-spacing: -1.4rem;
+}
+
+.main-wrap span {
+  font-weight: 600;
+}
+
+.bridge {
+  cursor: pointer;
+}
+
+/* ABOUT */
+#about:after {
+  content: 'Wonseok';
+  letter-spacing: -0.1rem;
+}
+
+#about:hover:after {
+  color: #03e9f4;
+  content: 'ABOUT';
+  transition: all 0.5s;
+}
+
+/* CONTACT */
+#contact:after {
+  content: 'make';
+}
+
+#contact:hover::after {
+  color: #03e9f4;
+  content: 'CONTACT';
+  transition: all 0.5s;
+}
+
+/* PROJECTS */
+#projects:after {
+  content: 'experience';
+}
+
+#projects:hover::after {
+  color: #03e9f4;
+  content: 'PROJECTS';
+  transition: all 0.5s;
+}
