@@ -1,0 +1,53 @@
+nav {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3rem;
+
+  align-items: center;
+}
+
+.nav-left,
+.nav-right {
+  width: 50%;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: right;
+  margin-right: 0.5rem;
+}
+
+.nav-right button {
+  margin-left: 1rem;
+}
+
+.btn {
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn-home {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-active {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+/* Animation */
+.btn:hover {
+  animation: effectY 0.3s ease-in-out;
+}
+
+@keyframes effectY {
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
