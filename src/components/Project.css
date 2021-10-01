@@ -1,0 +1,88 @@
+.project-wrap {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.project-img__wrap {
+  position: relative;
+  margin-right: 10rem;
+  width: 520px;
+  height: 320px;
+}
+
+.laptop-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 520px;
+  height: 320px;
+}
+
+.project-img {
+  position: absolute;
+  left: 73px;
+  top: 32px;
+  width: 374px;
+  height: 240px;
+}
+
+.project-info__wrap {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  padding: 1rem 4rem;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.project-skills__wrap {
+  margin-bottom: 4rem;
+}
+
+.project-skills__wrap span {
+  font-size: 1.4rem;
+  border: 3px solid black;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.project-btns {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 0.4rem 0;
+
+  border: none;
+  border-radius: 1rem;
+
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.live-btn {
+  color: #fff;
+}
+
+.code-btn {
+  padding: 5px 0;
+  background: #fff;
+}
+
+/* Animation */
+.project-btns:hover {
+  opacity: 0.6;
+  animation: effectX 0.3s ease-in-out;
+}
+
+@keyframes effectX {
+  50% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}

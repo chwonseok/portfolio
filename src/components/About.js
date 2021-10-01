@@ -1,7 +1,6 @@
 import Nav from './Nav';
 import Footer from './Footer';
 import './About.css';
-import img from '../images/me.jpeg';
 
 export default function About() {
   return (
@@ -25,7 +24,11 @@ export default function About() {
               </p>
             </div>
             <div className="myself-right">
-              <img className="myself-img" src={img} alt="wonseok choi" />
+              <img
+                className="myself-img"
+                src={process.env.PUBLIC_URL + '/images/me.jpeg'}
+                alt="wonseok choi"
+              />
             </div>
           </section>
           <section id="skills">

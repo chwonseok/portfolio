@@ -7,16 +7,28 @@ export default function Footer() {
         <h2>My Social</h2>
       </div>
       <div className="icons">
-        <a href="https://github.com/chwonseok">
+        <a href="https://github.com/chwonseok" target="_blank" rel="noreferrer">
           <i className="fab fa-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/wonseok-choi-234903221/">
+        <a
+          href="https://www.linkedin.com/in/wonseok-choi-234903221/"
+          rel="noreferrer"
+          target="_blank"
+        >
           <i className="fab fa-linkedin-in"></i>
         </a>
-        <a href="https://www.instagram.com/chwonseok/">
+        <a
+          href="https://www.instagram.com/chwonseok/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fab fa-instagram"></i>
         </a>
-        <a href="https://www.facebook.com/chwonseok89/">
+        <a
+          href="https://www.facebook.com/chwonseok89/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="fab fa-facebook-f"></i>
         </a>
       </div>

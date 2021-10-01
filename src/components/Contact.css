@@ -1,0 +1,92 @@
+.contact-greeting {
+  text-align: center;
+}
+
+.contact-greeting p {
+  width: 90%;
+  margin: auto;
+  font-size: 1.3rem;
+}
+
+/* Section: FORM */
+.contact-wrap {
+  margin: auto;
+  width: 90%;
+  margin-top: 2.5rem;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  border-radius: 1rem;
+  background: linear-gradient(#031c49, #243b55);
+}
+
+.gform {
+  width: 100%;
+}
+
+.form-elements {
+  position: relative;
+}
+
+.form-personal {
+  display: flex;
+}
+
+.form-value {
+  width: 100%;
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+
+  border: none;
+  border-bottom: 2px solid #000;
+  background: transparent;
+  outline: none;
+
+  color: #fff;
+}
+
+#name {
+  margin-right: 8rem;
+}
+
+#email {
+  margin-right: 18rem;
+  margin-left: 2rem;
+}
+
+.form-value:focus {
+  border-bottom: 2px solid #03e9f4;
+}
+
+.btn-submit {
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  border-radius: 0.5rem;
+  background: transparent;
+}
+
+.thankyou_message {
+  color: #03e9f4;
+  font-size: 2rem;
+}
+
+/* Animation */
+.btn-submit:hover,
+.btn-submit:active {
+  animation: effectBg 1s forwards;
+}
+
+@keyframes effectBg {
+  100% {
+    background: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+      0 0 100px #03e9f4;
+  }
+}
