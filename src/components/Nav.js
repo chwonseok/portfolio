@@ -11,7 +11,7 @@ export default function Nav() {
   const navContact = pathName === '/contact' ? ' nav-active' : '';
 
   function homeHandler() {
-    history.push('/');
+    history.push('/portfolio');
   }
 
   function aboutHandler() {
