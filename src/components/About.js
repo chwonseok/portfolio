@@ -1,8 +1,30 @@
 import Nav from './Nav';
 import Footer from './Footer';
 import './About.css';
+import { useState } from 'react';
 
 export default function About() {
+  const [english, setEnglish] = useState(true);
+
+  function printEng() {
+    return (
+      <p>
+        After realizing I take pride in bettering the lives of others and along
+        the way discovering a love for creating with code, I have decided to
+        become a web developer.
+        <br />
+        <br />I want to create successful responsive websites and web apps that
+        are efficient, convenient, and built with creativity. My main focus is
+        front-end development, HTML, CSS, JS and related frameworks, building
+        web apps, custom plugins, features, animations, and interactive layouts.
+      </p>
+    );
+  }
+
+  function printKor() {
+    return <p>테스트입니다.</p>;
+  }
+
   return (
     <>
       <div className="container">
@@ -11,7 +33,8 @@ export default function About() {
           <section className="myself">
             <div className="myself-left">
               <h1 className="title">About Me</h1>
-              <p>
+              {english ? printEng() : printKor()}
+              {/* <p>
                 After realizing I take pride in bettering the lives of others
                 and along the way discovering a love for creating with code, I
                 have decided to become a web developer.
@@ -21,7 +44,7 @@ export default function About() {
                 My main focus is front-end development, HTML, CSS, JS and
                 related frameworks, building web apps, custom plugins, features,
                 animations, and interactive layouts.
-              </p>
+              </p> */}
             </div>
             <div className="myself-right">
               <img
