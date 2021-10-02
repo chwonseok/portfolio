@@ -24,10 +24,19 @@ main {
 }
 
 /*************** SWITCH ***************/
+.language-wrap {
+  line-height: 28px;
+  margin-bottom: 1rem;
+}
+
+.language {
+  margin-right: 0.5rem;
+}
+
 /* The switch - the box around the slider */
 .switch {
-  position: relative;
   display: inline-block;
+  position: relative;
   width: 48px;
   height: 28px;
 }
