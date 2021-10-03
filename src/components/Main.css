@@ -43,7 +43,7 @@
 #about:hover:after {
   color: #03e9f4;
   content: 'ABOUT';
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 /* CONTACT */
@@ -54,7 +54,7 @@
 #contact:hover::after {
   color: #03e9f4;
   content: 'CONTACT';
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 
 /* PROJECTS */
@@ -65,5 +65,23 @@
 #projects:hover::after {
   color: #03e9f4;
   content: 'PROJECTS';
-  transition: all 0.5s;
+  transition: all 0.2s;
+}
+
+/* ANIMATION */
+
+#about {
+  animation: effect 1s alternate infinite ease-in-out;
+}
+#contact {
+  animation: effect 1s alternate 1.3s infinite ease-in-out;
+}
+#projects {
+  animation: effect 1s alternate 1.7s infinite ease-in-out;
+}
+
+@keyframes effect {
+  100% {
+    color: rgb(6, 55, 138);
+  }
 }
