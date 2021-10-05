@@ -143,6 +143,9 @@ input:checked + .slider:before {
 }
 /* PAD */
 @media screen and (max-width: 992px) {
+  main {
+    padding: 0 4rem;
+  }
   .myself {
     display: block;
   }
@@ -162,5 +165,21 @@ input:checked + .slider:before {
 }
 
 /* MOBILE */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
+  main {
+    padding: 0 3rem;
+  }
+  .title {
+    font-size: 2.7rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  main {
+    padding: 0;
+  }
+  .title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
 }
