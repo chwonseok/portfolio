@@ -79,18 +79,39 @@
 
 @keyframes effect {
   100% {
-    color: rgb(6, 55, 138);
+    color: rgb(21, 71, 159);
   }
 }
 
 /********** MEDIA QUERY **********/
 /* PAD */
-@media screen {
+@media screen and (max-width: 992px) {
+  .main p {
+    /* font-weight: 500; */
+    font-size: 2rem;
+  }
+  .main-wrap {
+    margin-top: 2rem;
+    line-height: 7rem;
+  }
+  .main-wrap div {
+    font-size: 8rem;
+    letter-spacing: -1rem;
+  }
 }
 
 /* MOBILE */
-@media screen and (min-width: 992px) and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
+  .main p {
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
   .main-wrap {
-    /* left: 30%; */
+    margin-top: 1rem;
+    line-height: 4.5rem;
+  }
+  .main-wrap div {
+    font-size: 5rem;
+    letter-spacing: -0.8rem;
   }
 }
