@@ -36,7 +36,11 @@ export default function Project({ data }) {
         <h2 className="project-title">{data.title}</h2>
         <div className="project-skills__wrap">
           {data.skills.map((cur, i) => {
-            return <span key={i}>{cur}</span>;
+            return (
+              <div key={i}>
+                <span>{cur}</span>
+              </div>
+            );
           })}
         </div>
         <button
