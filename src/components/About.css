@@ -110,7 +110,14 @@ input:checked + .slider:before {
 
 /* section: SKILLS */
 .skills-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   margin-top: 3rem;
+}
+
+.skills-wrap div {
+  height: 4rem;
 }
 
 .skills-wrap span {
@@ -149,8 +156,8 @@ input:checked + .slider:before {
     width: 90%;
   }
   #skills {
-    width: 90%;
-    padding: 0 2rem;
+    width: 100%;
+    padding-left: 1.5rem;
   }
 }
 

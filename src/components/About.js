@@ -73,19 +73,27 @@ export default function About() {
           <section id="skills">
             <h1 className="title">My Skills</h1>
             <div className="skills-wrap">
-              <span>HTML</span>
-
-              <span>CSS</span>
-
-              <span>BootStrap</span>
-
-              <span>SASS</span>
-
-              <span>JavaScript</span>
-
-              <span>React</span>
-
-              <span>Redux</span>
+              <div>
+                <span>HTML</span>
+              </div>
+              <div>
+                <span>CSS</span>
+              </div>
+              <div>
+                <span>BootStrap</span>
+              </div>
+              <div>
+                <span>SASS</span>
+              </div>
+              <div>
+                <span>JavaScript</span>
+              </div>
+              <div>
+                <span>React</span>
+              </div>
+              <div>
+                <span>Redux</span>
+              </div>
             </div>
           </section>
         </main>
