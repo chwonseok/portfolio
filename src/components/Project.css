@@ -139,3 +139,27 @@
     padding: 4px 0;
   }
 }
+
+/* MOBILE */
+@media screen and (max-width: 600px) {
+  .project-title {
+    font-size: 1.8rem;
+  }
+  .project-skills__wrap span {
+    font-size: 1rem;
+    border: 1.5px solid black;
+    padding: 0.2rem 0.4rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .project-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .project-skills__wrap span {
+    font-size: 0.8rem;
+    border: 1px solid black;
+    padding: 0.2rem 0.2rem;
+    margin-right: 0.4rem;
+  }
+}

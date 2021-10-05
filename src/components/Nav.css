@@ -55,6 +55,10 @@ nav {
 /********** MEDIA QUERY **********/
 /* MOBILE */
 @media screen and (max-width: 600px) {
+  nav {
+    width: 85%;
+    margin-bottom: 2rem;
+  }
   .btn-home {
     font-size: 1.5rem;
   }
@@ -62,12 +66,28 @@ nav {
     margin-left: 0.2rem;
     font-size: 0.8rem;
   }
+  btn:visited {
+    color: #000;
+  }
+  .btn:hover {
+    animation: none;
+  }
 }
 @media screen and (max-width: 375px) {
+  nav {
+    width: 90%;
+    margin-bottom: 1.5rem;
+  }
   .btn-home {
     font-size: 1.2rem;
   }
   .nav-right button {
     margin-left: -0.2rem;
+  }
+  btn:visited {
+    color: #000;
+  }
+  .btn:hover {
+    animation: none;
   }
 }
