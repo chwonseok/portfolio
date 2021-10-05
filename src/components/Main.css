@@ -1,5 +1,7 @@
 .main {
-  text-align: center;
+  margin: auto;
+  width: 50%;
+  text-align: left;
 }
 
 .main p {
@@ -12,11 +14,6 @@
 }
 
 .main-wrap {
-  position: relative;
-  text-align: left;
-  left: 50%;
-  transform: translateX(-20%);
-
   margin-top: 3rem;
   line-height: 9rem;
 }
@@ -83,5 +80,17 @@
 @keyframes effect {
   100% {
     color: rgb(6, 55, 138);
+  }
+}
+
+/********** MEDIA QUERY **********/
+/* PAD */
+@media screen {
+}
+
+/* MOBILE */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .main-wrap {
+    /* left: 30%; */
   }
 }
