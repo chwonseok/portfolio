@@ -43,6 +43,14 @@ export default function About() {
         <main>
           <section className="myself">
             <div className="myself-left">
+              <img
+                className="myself-img"
+                src={process.env.PUBLIC_URL + '/images/me.jpeg'}
+                alt="wonseok choi"
+              />
+            </div>
+
+            <div className="myself-right">
               <h1 className="title">About Me</h1>
 
               <div className="language-wrap">
@@ -60,14 +68,8 @@ export default function About() {
 
               {english ? printEng() : printKor()}
             </div>
-            <div className="myself-right">
-              <img
-                className="myself-img"
-                src={process.env.PUBLIC_URL + '/images/me.jpeg'}
-                alt="wonseok choi"
-              />
-            </div>
           </section>
+
           <section id="skills">
             <h1 className="title">My Skills</h1>
             <div className="skills-wrap">
