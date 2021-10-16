@@ -8,6 +8,10 @@ ReactDOM.render(
   // <React.StrictMode>
   <BrowserRouter>
     <App />
+    <script
+      data-cfasync="false"
+      src="%PUBLIC_URL%/form-submission-handler.js"
+    ></script>
   </BrowserRouter>,
   // </React.StrictMode>,
   document.getElementById('root')
