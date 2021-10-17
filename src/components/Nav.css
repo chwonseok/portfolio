@@ -76,6 +76,20 @@ nav {
     animation: none;
   }
 }
+@media screen and (max-width: 430px) {
+  nav {
+    margin-bottom: 1.5rem;
+  }
+  .nav-left {
+    margin-left: -2rem;
+  }
+  .btn-home {
+    font-size: 1.2rem;
+  }
+  .nav-right button {
+    margin-left: -0.5rem;
+  }
+}
 @media screen and (max-width: 375px) {
   nav {
     width: 80%;
@@ -83,15 +97,8 @@ nav {
   }
   .nav-left {
     margin-left: -2rem;
-    width: 40%;
-  }
-  .btn-home {
-    font-size: 1.2rem;
   }
   .nav-right button {
     margin-left: -0.6rem;
-  }
-  .btn:hover {
-    animation: none;
   }
 }
