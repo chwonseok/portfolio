@@ -56,8 +56,11 @@ nav {
 /* MOBILE */
 @media screen and (max-width: 600px) {
   nav {
-    width: 85%;
+    width: 90%;
     margin-bottom: 2rem;
+  }
+  .nav-left {
+    width: 40%;
   }
   .btn-home {
     font-size: 1.5rem;
@@ -72,8 +75,11 @@ nav {
 }
 @media screen and (max-width: 375px) {
   nav {
-    width: 78%;
+    width: 85%;
     margin-bottom: 1.5rem;
+  }
+  .nav-left {
+    width: 40%;
   }
   .btn-home {
     font-size: 1.2rem;
