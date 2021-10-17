@@ -62,6 +62,7 @@ nav {
     margin-bottom: 2rem;
   }
   .nav-left {
+    margin-left: -1rem;
     width: 40%;
   }
   .btn-home {
@@ -81,6 +82,7 @@ nav {
     margin-bottom: 1.5rem;
   }
   .nav-left {
+    margin-left: -1rem;
     width: 40%;
   }
   .btn-home {
