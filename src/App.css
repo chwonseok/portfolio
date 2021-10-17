@@ -104,3 +104,20 @@ html {
   min-height: 100vh;
   padding: 3rem 0;
 }
+
+/* MOBILE */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 760px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .container {
+    max-width: 430px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    max-width: 375px;
+  }
+}
