@@ -18,12 +18,12 @@ HTML, CSS, JavaScript, React
 
 ---
 
-## Update history
+## Update History
 
-* 반응형으로 완성
-* Kawece프로젝트 추가
-* rough Contact Me 페이지 등록
-* 2021.pc view 완성
+* 2021.10.17. - 반응형으로 완성 tested with iphone8, iphone12 as small devices
+* 2021.10.16. - Kawece 프로젝트 추가
+* 2021.10.01. - rough Contact Me 페이지 등록
+* 2021.09.27. - pc view 완성
 
 ---
 
