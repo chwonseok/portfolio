@@ -11,6 +11,7 @@ main {
 .myself {
   margin: auto;
   display: flex;
+  align-items: center;
   width: 100%;
   margin-bottom: 5rem;
 }
@@ -34,6 +35,11 @@ main {
 
 .myself-right p {
   font-size: 1.4rem;
+}
+
+.myself-txt {
+  color: #000;
+  font-weight: 600;
 }
 
 /*************** SWITCH ***************/

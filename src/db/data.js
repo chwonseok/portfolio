@@ -10,6 +10,15 @@ const data = [
   },
   {
     id: 1,
+    title: 'React Weather App',
+    skills: ['React', 'Weather API', 'Styled-Component'],
+    thumbnail: '/images/weather-app.png',
+    liveAdr: 'https://chwonseok.github.io/react-weather-app/',
+    codeAdr: 'https://github.com/chwonseok/react-weather-app',
+    theme: '#035552',
+  },
+  {
+    id: 2,
     title: 'Apple Calculator',
     skills: ['HTML', 'CSS', 'JavaScript'],
     thumbnail: '/images/apple-calculator.png',
@@ -18,7 +27,7 @@ const data = [
     theme: '#FF9A00',
   },
   {
-    id: 2,
+    id: 3,
     title: 'Workout Recorder',
     skills: ['HTML', 'CSS', 'JavaScript', 'Leaflet'],
     thumbnail: '/images/workout-recorder.png',
@@ -27,7 +36,7 @@ const data = [
     theme: '#C9DB9F',
   },
   {
-    id: 3,
+    id: 4,
     title: 'Dice Game',
     skills: ['HTML', 'CSS', 'JavaScript'],
     thumbnail: '/images/dice-game.png',
@@ -36,7 +45,7 @@ const data = [
     theme: '#16BDC0',
   },
   {
-    id: 4,
+    id: 5,
     title: 'Random Number Game',
     skills: ['HTML', 'CSS', 'JavaScript'],
     thumbnail: '/images/random-number-game.png',
@@ -45,7 +54,7 @@ const data = [
     theme: '#222222',
   },
   {
-    id: 5,
+    id: 6,
     title: 'Kakao Clone',
     skills: ['HTML', 'CSS'],
     thumbnail: '/images/kakao-clone.png',
