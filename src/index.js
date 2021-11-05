@@ -7,10 +7,6 @@ import App from './App';
 ReactDOM.render(
   <BrowserRouter>
     <App />
-    <script
-      data-cfasync="false"
-      src="%PUBLIC_URL%/form-submission-handler.js"
-    ></script>
   </BrowserRouter>,
   document.getElementById('root')
 );
