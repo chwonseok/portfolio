@@ -1,4 +1,5 @@
 # Portfolio
+
 > This is my portfolio built with React.js
 
 미니멀하면서도 필요한 정보만 깔끔하게 전달하는 포트폴리오 사이트를 구현하고 싶었습니다. <br/>
@@ -8,6 +9,7 @@ landing page의 디자인은 최근 EPL에서 사용 중인 [No room for racism]
 ---
 
 # Live
+
 [https://chwonseok.github.io/portfolio/](https://chwonseok.github.io/portfolio/)
 
 ---
@@ -20,10 +22,11 @@ HTML, CSS, JavaScript, React
 
 ## Update History
 
-* 2021.10.17. - 반응형으로 완성 tested with iphone8, iphone12 as small devices
-* 2021.10.16. - Kawece 프로젝트 추가
-* 2021.10.01. - rough Contact Me 페이지 등록
-* 2021.09.27. - pc view 완성
+- 2021.11.09. - note app 프로젝트 추가, apple calculator 프로젝트 제거
+- 2021.10.17. - 반응형으로 완성 tested with iphone8, iphone12 for small devices
+- 2021.10.16. - Kawece 프로젝트 추가
+- 2021.10.01. - rough Contact Me 페이지 등록
+- 2021.09.27. - pc view 완성
 
 ---
 
