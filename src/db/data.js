@@ -2,7 +2,7 @@ const data = [
   {
     id: 0,
     title: 'Kaswece Online Shop',
-    skills: ['HTML', 'CSS', 'React'],
+    skills: ['React', 'CSS'],
     thumbnail: '/images/kaswece.png',
     liveAdr: 'https://chwonseok.github.io/kaswece/',
     codeAdr: 'https://github.com/chwonseok/kaswece',
@@ -19,12 +19,12 @@ const data = [
   },
   {
     id: 2,
-    title: 'Apple Calculator',
-    skills: ['HTML', 'CSS', 'JavaScript'],
-    thumbnail: '/images/apple-calculator.png',
-    liveAdr: 'https://chwonseok.github.io/apple_calculator/',
-    codeAdr: 'https://github.com/chwonseok/apple_calculator',
-    theme: '#FF9A00',
+    title: 'React Note App',
+    skills: ['React', 'CSS'],
+    thumbnail: '/images/note-app.png',
+    liveAdr: 'https://chwonseok.github.io/react-note-app/',
+    codeAdr: 'https://github.com/chwonseok/react-note-app',
+    theme: '#F7F794',
   },
   {
     id: 3,
