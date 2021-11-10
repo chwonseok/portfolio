@@ -46,15 +46,6 @@ const data = [
   },
   {
     id: 5,
-    title: 'Random Number Game',
-    skills: ['HTML', 'CSS', 'JavaScript'],
-    thumbnail: '/images/random-number-game.png',
-    liveAdr: 'https://chwonseok.github.io/random_number_game/',
-    codeAdr: 'https://github.com/chwonseok/random_number_game',
-    theme: '#222222',
-  },
-  {
-    id: 6,
     title: 'Kakao Clone',
     skills: ['HTML', 'CSS'],
     thumbnail: '/images/kakao-clone.png',
