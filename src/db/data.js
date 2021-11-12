@@ -44,15 +44,6 @@ const data = [
     codeAdr: 'https://github.com/chwonseok/dice_game',
     theme: '#16BDC0',
   },
-  {
-    id: 5,
-    title: 'Kakao Clone',
-    skills: ['HTML', 'CSS'],
-    thumbnail: '/images/kakao-clone.png',
-    liveAdr: 'https://chwonseok.github.io/kakao_clone/',
-    codeAdr: 'https://github.com/chwonseok/kakao_clone',
-    theme: '#FFE812',
-  },
 ];
 
 export default data;

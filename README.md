@@ -22,6 +22,7 @@ HTML, CSS, JavaScript, React
 
 ## Update History
 
+- 2021.11.12. - Kakao Clone 프로젝트 제거
 - 2021.11.10. - Random Number Game 프로젝트 제거
 - 2021.11.09. - note app 프로젝트 추가, apple calculator 프로젝트 제거
 - 2021.10.17. - 반응형으로 완성 tested with iphone8, iphone12 for small devices
