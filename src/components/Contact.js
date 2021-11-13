@@ -56,6 +56,7 @@ export default function Contact() {
                     name="message"
                     rows="10"
                     placeholder="Message"
+                    style={{ resize: 'none' }}
                   ></textarea>
                 </fieldset>
 
