@@ -1,15 +1,22 @@
 # Portfolio
 
-<img src="src/img/portfolio-main.png" width="700" height="500">
-<img src="src/img/portfolio-about.png" width="700" height="500">
-<img src="src/img/portfolio-projects.png" width="700" height="500">
-<img src="src/img/portfolio-contact.png" width="700" height="500">
+> - Main 페이지
+>   <img src="src/img/portfolio-main.png" width="700" height="500">
 
-> This is my portfolio built with React.js
+> - About 페이지
+>   <img src="src/img/portfolio-about.png" width="700" height="500">
 
-미니멀하면서도 필요한 정보만 깔끔하게 전달하는 포트폴리오 사이트를 구현하고 싶었습니다. <br/>
-landing page의 디자인은 최근 EPL에서 사용 중인 [No room for racism](https://www.premierleague.com/NoRoomForRacism)에서 영감을 받았습니다. <br/>
-현재 구현된 디자인에서 추가하거나 변경할 아이디어가 있기에 꾸준히 업데이트 할 예정입니다.
+> - Projects 페이지
+>   <img src="src/img/portfolio-projects.png" width="700" height="500">
+
+> - Contact 페이지
+>   <img src="src/img/portfolio-contact.png" width="700" height="500">
+
+- This is my portfolio built with React.js
+
+- 미니멀하면서도 필요한 정보만 깔끔하게 전달하는 포트폴리오 사이트를 구현하고 싶었습니다. <br/>
+  landing page의 디자인은 최근 EPL에서 사용 중인 [No room for racism](https://www.premierleague.com/NoRoomForRacism)에서 영감을 받았습니다. <br/>
+  현재 구현된 디자인에서 추가하거나 변경할 아이디어가 있기에 꾸준히 업데이트 할 예정입니다.
 
 ---
 
